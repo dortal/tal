@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="chipchat/Channel.java|chipchat/ChipChat.java|chipchat/Communicator.java|chipchat/ConnectionInfo.java|chipchat/ConnectionWaiter.java" kind="src" path="src/java"/>
+	<classpathentry kind="lib" path="lib/jaws_netscape_pakage_only.jar"/>
+	<classpathentry kind="lib" path="lib/servlet.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,233 @@
+2011-08-03 19:10:29,187 [pool-1-thread-1] (CxScanJob.java:78) INFO  - Packing project
+2011-08-03 19:10:30,624 [pool-1-thread-1] (CxScanJob.java:97) INFO  - Project name is "console.project_1312387830624"
+2011-08-03 19:10:30,624 [pool-1-thread-1] (CxScanJob.java:106) INFO  - Log in
+2011-08-03 19:10:31,046 [pool-1-thread-1] (CxScanJob.java:112) INFO  - Retrieving scan configurations
+2011-08-03 19:10:31,156 [pool-1-thread-1] (CxScanJob.java:130) INFO  - Request scan
+2011-08-03 19:10:32,531 [pool-1-thread-1] (CxScanJob.java:416) TRACE - Project scan request response:RunScanResult(scanId:c562b84e-60f3-4982-bbcb-65b7a286f929)
+2011-08-03 19:10:32,547 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="c562b84e-60f3-4982-bbcb-65b7a286f929" RunStatus="Queued" TotalPercent="0" CurrentStage="0" StageName="" CurrentStagePercent="0" StageMessage="" StepMessage="" Details="" TimeStarted="03/08/2011 09:03:21" TimeFinished="03/08/2013 09:03:21" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-08-03 19:10:32,547 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 0%
+2011-08-03 19:10:32,547 [pool-2-thread-1] (WaitScanCompletionJob.java:90) INFO  - Scan state: Queued
+2011-08-03 19:10:32,547 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Queued
+ (0%) 
+2011-08-03 19:11:32,744 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="c562b84e-60f3-4982-bbcb-65b7a286f929" RunStatus="Running" TotalPercent="99" CurrentStage="20" StageName="Querying" CurrentStagePercent="99" StageMessage="Running query: Weak_Password_Authentication" StepMessage="Processing # 143 of 144" Details="Weak_Password_Authentication" TimeStarted="03/08/2011 09:03:21" TimeFinished="03/08/2013 09:03:21" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-08-03 19:11:32,744 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 99%
+2011-08-03 19:11:32,744 [pool-2-thread-1] (WaitScanCompletionJob.java:84) INFO  - Current stage:  "Querying" - Running query: Weak_Password_Authentication
+2011-08-03 19:11:32,744 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Running "Querying"
+Running query: Weak_Password_Authentication (99%) Processing # 143 of 144
+2011-08-03 19:12:32,973 [pool-2-thread-1] (WaitScanCompletionJob.java:56) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="c562b84e-60f3-4982-bbcb-65b7a286f929" RunStatus="Finished" TotalPercent="100" CurrentStage="2147483647" StageName="" CurrentStagePercent="0" StageMessage="Finish saving results" StepMessage="" Details="" TimeStarted="03/08/2011 09:03:21" TimeFinished="03/08/2011 09:04:30" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-08-03 19:12:33,035 [pool-2-thread-1] (WaitScanCompletionJob.java:68) INFO  - Total scan worked: 100%
+2011-08-03 19:12:33,035 [pool-2-thread-1] (WaitScanCompletionJob.java:88) INFO  - Current stage: Finish saving results
+2011-08-03 19:12:33,051 [pool-2-thread-1] (WaitScanCompletionJob.java:94) TRACE - Finished
+Finish saving results (0%) 
+2011-08-03 19:12:33,051 [pool-1-thread-1] (CxScanJob.java:158) INFO  - Retrieving results
+2011-09-12 16:34:58,698 [pool-1-thread-1] (CxScanJob.java:78) INFO  - Packing project
+2011-09-12 16:35:00,009 [pool-1-thread-1] (CxScanJob.java:97) INFO  - Project name is "chipchat-1.0-Beta2-src-20040630_3999lines"
+2011-09-12 16:35:00,009 [pool-1-thread-1] (CxScanJob.java:106) INFO  - Log in
+2011-09-12 16:35:00,634 [pool-1-thread-1] (CxScanJob.java:112) INFO  - Retrieving scan configurations
+2011-09-12 16:35:01,009 [pool-1-thread-1] (CxScanJob.java:133) INFO  - Request scan
+2011-09-12 16:35:01,009 [pool-1-thread-1] (CxScanJob.java:397) INFO  - isVisible to others flag: true
+2011-09-12 16:35:03,179 [pool-1-thread-1] (CxScanJob.java:436) TRACE - Project scan request response:RunScanResult(scanId:3ad0def6-3c36-4339-bea2-ce1317e27f50)
+2011-09-12 16:35:03,211 [pool-2-thread-1] (WaitScanCompletionJob.java:58) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="3ad0def6-3c36-4339-bea2-ce1317e27f50" RunStatus="Queued" TotalPercent="0" CurrentStage="0" StageName="" CurrentStagePercent="0" StageMessage="" StepMessage="" Details="" TimeStarted="12/09/2011 06:34:00" TimeFinished="12/09/2013 06:34:00" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-09-12 16:35:03,211 [pool-2-thread-1] (WaitScanCompletionJob.java:70) INFO  - Total scan worked: 0%
+2011-09-12 16:35:03,211 [pool-2-thread-1] (WaitScanCompletionJob.java:106) INFO  - Scan state: Queued
+2011-09-12 16:35:03,211 [pool-2-thread-1] (WaitScanCompletionJob.java:110) TRACE - Queued
+ (0%) 
+2011-09-12 16:36:03,688 [pool-2-thread-1] (WaitScanCompletionJob.java:58) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="3ad0def6-3c36-4339-bea2-ce1317e27f50" RunStatus="Running" TotalPercent="94" CurrentStage="20" StageName="Querying" CurrentStagePercent="89" StageMessage="Running query: Client_DoS_By_Sleep" StepMessage="Processing # 129 of 144" Details="Client_DoS_By_Sleep" TimeStarted="12/09/2011 06:34:00" TimeFinished="12/09/2013 06:34:00" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-09-12 16:36:03,688 [pool-2-thread-1] (WaitScanCompletionJob.java:70) INFO  - Total scan worked: 94%
+2011-09-12 16:36:03,704 [pool-2-thread-1] (WaitScanCompletionJob.java:100) INFO  - Current stage:  "Querying" - Running query: Client_DoS_By_Sleep
+2011-09-12 16:36:03,704 [pool-2-thread-1] (WaitScanCompletionJob.java:110) TRACE - Running "Querying"
+Running query: Client_DoS_By_Sleep (89%) Processing # 129 of 144
+2011-09-12 16:37:04,197 [pool-2-thread-1] (WaitScanCompletionJob.java:58) TRACE - getScanStatus: GetStatusOfScanResult(<?xml version="1.0" encoding="utf-16"?>
+<GetScanStatusReplySchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CxWebAPI.xsd">
+  <IsSuccesfull>true</IsSuccesfull>
+  <ReturnValue>
+    <Status RunId="3ad0def6-3c36-4339-bea2-ce1317e27f50" RunStatus="Finished" TotalPercent="100" CurrentStage="2147483647" StageName="" CurrentStagePercent="0" StageMessage="" StepMessage="" Details="" TimeStarted="12/09/2011 06:34:00" TimeFinished="12/09/2011 06:35:16" QueuePosition="-1" />
+  </ReturnValue>
+</GetScanStatusReplySchema>)
+2011-09-12 16:37:04,197 [pool-2-thread-1] (WaitScanCompletionJob.java:70) INFO  - Total scan worked: 100%
+2011-09-12 16:37:04,197 [pool-2-thread-1] (WaitScanCompletionJob.java:106) INFO  - Scan state: Finished
+2011-09-12 16:37:04,197 [pool-2-thread-1] (WaitScanCompletionJob.java:110) TRACE - Finished
+ (0%) 
+2011-09-12 16:37:04,197 [pool-1-thread-1] (CxScanJob.java:161) INFO  - Retrieving results
+2011-09-12 16:37:06,383 [pool-1-thread-1] (CxScanJob.java:517) INFO  - Saving xml results to file [Q:\Projects\Java\chipchat-1.0-Beta2-src-20040630_3999lines\chipchat-1.0-Beta2-src-20040630_3999lines.xml]
+2011-10-03 09:08:45,597 [pool-1-thread-1] (CxScanJob.java:88) INFO  - Packing project
+2011-10-03 09:08:58,221 [pool-1-thread-1] (CxScanJob.java:107) INFO  - Project name is "chipchat-1.0-Beta2-src-20040630_3999lines"
+2011-10-03 09:08:59,188 [pool-1-thread-1] (CxScanJob.java:257) INFO  - Check CLI version support: 1.2.3
+2011-10-03 09:08:59,235 [pool-1-thread-1] (CxScanJob.java:270) INFO  - Log in
+2011-10-03 09:08:59,251 [pool-1-thread-1] (CxScanJob.java:119) INFO  - Retrieving scan configurations
+2011-10-03 09:08:59,297 [pool-1-thread-1] (CxScanJob.java:140) INFO  - Request scan
+2011-10-03 09:08:59,297 [pool-1-thread-1] (CxScanJob.java:414) INFO  - isVisible to others flag: true
+2011-10-03 09:08:59,344 [pool-1-thread-1] (CxScanJob.java:439) ERROR - Project scan request was unsuccessful.
+2011-10-03 09:08:59,344 [pool-1-thread-1] (CxScanJob.java:443) INFO  - Project scan run request unsuccessful: Illegal project name. Operation retry 1
+2011-10-03 09:08:59,375 [pool-1-thread-1] (CxScanJob.java:439) ERROR - Project scan request was unsuccessful.
+2011-10-03 09:08:59,375 [pool-1-thread-1] (CxScanJob.java:443) INFO  - Project scan run request unsuccessful: Illegal project name. Operation retry 2
+2011-10-03 09:08:59,407 [pool-1-thread-1] (CxScanJob.java:439) ERROR - Project scan request was unsuccessful.
+2011-10-03 09:08:59,407 [pool-1-thread-1] (CxScanJob.java:443) INFO  - Project scan run request unsuccessful: Illegal project name. Operation retry 3
+2011-10-03 09:08:59,407 [main] (ScanFolderCommand.java:70) ERROR - Error during scan job execution: Project scan request was unsuccessful.
+2011-10-03 09:08:59,422 [main] (ScanFolderCommand.java:73) TRACE - Error during scan job execution.
+java.util.concurrent.ExecutionException: java.lang.Exception: Project scan request was unsuccessful.
+	at java.util.concurrent.FutureTask$Sync.innerGet(Unknown Source)
+	at java.util.concurrent.FutureTask.get(Unknown Source)
+	at com.checkmarx.cxconsole.commands.ScanFolderCommand.executeCommand(ScanFolderCommand.java:61)
+	at com.checkmarx.cxconsole.commands.CxConsoleCommand.execute(CxConsoleCommand.java:78)
+	at com.checkmarx.cxconsole.CxConsoleLauncher.main(CxConsoleLauncher.java:94)
+Caused by: java.lang.Exception: Project scan request was unsuccessful.
+	at com.checkmarx.cxconsole.commands.job.CxScanJob.requestScan(CxScanJob.java:452)
+	at com.checkmarx.cxconsole.commands.job.CxScanJob.call(CxScanJob.java:143)
+	at com.checkmarx.cxconsole.commands.job.CxScanJob.call(CxScanJob.java:43)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2011-10-04 19:51:54,421 [pool-1-thread-1] (CxScanJob.java:88) INFO  - Packing project
+2011-10-04 19:51:55,871 [pool-1-thread-1] (CxScanJob.java:107) INFO  - Project name is "chipchat-1.0-Beta2-src-20040630_3999lines"
+2011-10-04 19:51:56,837 [pool-1-thread-1] (CxScanJob.java:257) INFO  - Check CLI version support: 1.2.3
+2011-10-04 19:51:56,884 [pool-1-thread-1] (CxScanJob.java:270) INFO  - Log in
+2011-10-04 19:51:56,993 [pool-1-thread-1] (CxScanJob.java:119) INFO  - Retrieving scan configurations
+2011-10-04 19:51:57,102 [pool-1-thread-1] (CxScanJob.java:140) INFO  - Request scan
+2011-10-04 19:51:57,102 [pool-1-thread-1] (CxScanJob.java:414) INFO  - isVisible to others flag: true
+2011-10-04 19:51:57,133 [pool-1-thread-1] (CxScanJob.java:439) ERROR - Project scan request was unsuccessful.
+2011-10-04 19:51:57,149 [pool-1-thread-1] (CxScanJob.java:443) INFO  - Project scan run request unsuccessful: Illegal project name. Operation retry 1
+2011-10-04 19:51:57,196 [pool-1-thread-1] (CxScanJob.java:439) ERROR - Project scan request was unsuccessful.
+2011-10-04 19:51:57,211 [pool-1-thread-1] (CxScanJob.java:443) INFO  - Project scan run request unsuccessful: Illegal project name. Operation retry 2
+2011-10-04 19:51:57,242 [pool-1-thread-1] (CxScanJob.java:439) ERROR - Project scan request was unsuccessful.
+2011-10-04 19:51:57,242 [pool-1-thread-1] (CxScanJob.java:443) INFO  - Project scan run request unsuccessful: Illegal project name. Operation retry 3
+2011-10-04 19:51:57,242 [main] (ScanFolderCommand.java:70) ERROR - Error during scan job execution: Project scan request was unsuccessful.
+2011-10-04 19:51:57,258 [main] (ScanFolderCommand.java:73) TRACE - Error during scan job execution.
+java.util.concurrent.ExecutionException: java.lang.Exception: Project scan request was unsuccessful.
+	at java.util.concurrent.FutureTask$Sync.innerGet(Unknown Source)
+	at java.util.concurrent.FutureTask.get(Unknown Source)
+	at com.checkmarx.cxconsole.commands.ScanFolderCommand.executeCommand(ScanFolderCommand.java:61)
+	at com.checkmarx.cxconsole.commands.CxConsoleCommand.execute(CxConsoleCommand.java:78)
+	at com.checkmarx.cxconsole.CxConsoleLauncher.main(CxConsoleLauncher.java:94)
+Caused by: java.lang.Exception: Project scan request was unsuccessful.
+	at com.checkmarx.cxconsole.commands.job.CxScanJob.requestScan(CxScanJob.java:452)
+	at com.checkmarx.cxconsole.commands.job.CxScanJob.call(CxScanJob.java:143)
+	at com.checkmarx.cxconsole.commands.job.CxScanJob.call(CxScanJob.java:43)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2011-10-27 11:12:38,517 [pool-1-thread-1] (CxScanJob.java:89) INFO  - Packing project
+2011-10-27 11:12:40,266 [pool-1-thread-1] (CxScanJob.java:108) INFO  - Project name is "chipchat-1.0-Beta2-src-20040630_3999lines"
+2011-10-27 11:12:41,657 [pool-1-thread-1] (CxScanJob.java:275) INFO  - Check CLI version support: 1.2.6
+2011-10-27 11:12:41,704 [pool-1-thread-1] (CxScanJob.java:290) INFO  - Log in
+2011-10-27 11:12:41,844 [pool-1-thread-1] (CxScanJob.java:120) INFO  - Retrieving scan configurations
+2011-10-27 11:12:41,969 [pool-1-thread-1] (CxScanJob.java:141) INFO  - Request scan
+2011-10-27 11:12:41,969 [pool-1-thread-1] (CxScanJob.java:434) INFO  - isVisible to others flag: true
+2011-10-27 11:12:42,016 [pool-1-thread-1] (CxScanJob.java:462) ERROR - Project scan request was unsuccessful.
+2011-10-27 11:12:42,016 [pool-1-thread-1] (CxScanJob.java:466) INFO  - Project scan run request unsuccessful: Illegal project name. Operation retry 1
+2011-10-27 11:13:42,060 [pool-1-thread-1] (CxScanJob.java:462) ERROR - Project scan request was unsuccessful.
+2011-10-27 11:13:42,076 [pool-1-thread-1] (CxScanJob.java:466) INFO  - Project scan run request unsuccessful: Illegal project name. Operation retry 2
+2011-10-27 11:14:42,104 [pool-1-thread-1] (CxScanJob.java:462) ERROR - Project scan request was unsuccessful.
+2011-10-27 11:14:42,104 [pool-1-thread-1] (CxScanJob.java:466) INFO  - Project scan run request unsuccessful: Illegal project name. Operation retry 3
+2011-10-27 11:14:42,120 [main] (ScanFolderCommand.java:70) ERROR - Error during scan job execution: Project scan request was unsuccessful.
+2011-10-27 11:14:42,151 [main] (ScanFolderCommand.java:73) TRACE - Error during scan job execution.
+java.util.concurrent.ExecutionException: java.lang.Exception: Project scan request was unsuccessful.
+	at java.util.concurrent.FutureTask$Sync.innerGet(Unknown Source)
+	at java.util.concurrent.FutureTask.get(Unknown Source)
+	at com.checkmarx.cxconsole.commands.ScanFolderCommand.executeCommand(ScanFolderCommand.java:61)
+	at com.checkmarx.cxconsole.commands.CxConsoleCommand.execute(CxConsoleCommand.java:78)
+	at com.checkmarx.cxconsole.CxConsoleLauncher.main(CxConsoleLauncher.java:94)
+Caused by: java.lang.Exception: Project scan request was unsuccessful.
+	at com.checkmarx.cxconsole.commands.job.CxScanJob.requestScan(CxScanJob.java:485)
+	at com.checkmarx.cxconsole.commands.job.CxScanJob.call(CxScanJob.java:144)
+	at com.checkmarx.cxconsole.commands.job.CxScanJob.call(CxScanJob.java:44)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2011-10-27 18:13:23,014 [pool-1-thread-1] (CxScanJob.java:89) INFO  - Packing project
+2011-10-27 18:13:24,681 [pool-1-thread-1] (CxScanJob.java:108) INFO  - Project name is "chipchat-1.0-Beta2-src-20040630_3999lines"
+2011-10-27 18:13:26,176 [pool-1-thread-1] (CxScanJob.java:275) INFO  - Check CLI version support: 1.2.6
+2011-10-27 18:13:26,394 [pool-1-thread-1] (CxScanJob.java:290) INFO  - Log in
+2011-10-27 18:13:26,566 [pool-1-thread-1] (CxScanJob.java:120) INFO  - Retrieving scan configurations
+2011-10-27 18:13:26,706 [pool-1-thread-1] (CxScanJob.java:141) INFO  - Request scan
+2011-10-27 18:13:26,722 [pool-1-thread-1] (CxScanJob.java:434) INFO  - isVisible to others flag: true
+2011-10-27 18:13:26,924 [pool-1-thread-1] (CxScanJob.java:462) ERROR - Project scan request was unsuccessful.
+2011-10-27 18:13:26,924 [pool-1-thread-1] (CxScanJob.java:466) INFO  - Project scan run request unsuccessful: Illegal project name. Operation retry 1
+2011-10-27 18:14:26,796 [pool-1-thread-1] (CxScanJob.java:462) ERROR - Project scan request was unsuccessful.
+2011-10-27 18:14:26,796 [pool-1-thread-1] (CxScanJob.java:466) INFO  - Project scan run request unsuccessful: Illegal project name. Operation retry 2
+2011-10-27 18:15:26,668 [pool-1-thread-1] (CxScanJob.java:462) ERROR - Project scan request was unsuccessful.
+2011-10-27 18:15:26,668 [pool-1-thread-1] (CxScanJob.java:466) INFO  - Project scan run request unsuccessful: Illegal project name. Operation retry 3
+2011-10-27 18:15:26,684 [main] (ScanFolderCommand.java:70) ERROR - Error during scan job execution: Project scan request was unsuccessful.
+2011-10-27 18:15:26,699 [main] (ScanFolderCommand.java:73) TRACE - Error during scan job execution.
+java.util.concurrent.ExecutionException: java.lang.Exception: Project scan request was unsuccessful.
+	at java.util.concurrent.FutureTask$Sync.innerGet(Unknown Source)
+	at java.util.concurrent.FutureTask.get(Unknown Source)
+	at com.checkmarx.cxconsole.commands.ScanFolderCommand.executeCommand(ScanFolderCommand.java:61)
+	at com.checkmarx.cxconsole.commands.CxConsoleCommand.execute(CxConsoleCommand.java:78)
+	at com.checkmarx.cxconsole.CxConsoleLauncher.main(CxConsoleLauncher.java:94)
+Caused by: java.lang.Exception: Project scan request was unsuccessful.
+	at com.checkmarx.cxconsole.commands.job.CxScanJob.requestScan(CxScanJob.java:485)
+	at com.checkmarx.cxconsole.commands.job.CxScanJob.call(CxScanJob.java:144)
+	at com.checkmarx.cxconsole.commands.job.CxScanJob.call(CxScanJob.java:44)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2011-11-07 18:03:18,847 [pool-1-thread-1] (CxScanJob.java:89) INFO  - Packing project
+2011-11-14 06:19:12,974 [pool-1-thread-1] (CxScanJob.java:89) INFO  - Packing project
+2011-11-14 06:19:18,385 [pool-1-thread-1] (CxScanJob.java:108) INFO  - Project name is "chipchat-1.0-Beta2-src-20040630_3999lines"
+2011-11-14 06:19:18,863 [pool-1-thread-1] (CxScanJob.java:258) INFO  - Check CLI version support: 1.2.5
+2011-11-14 06:19:18,894 [pool-1-thread-1] (CxScanJob.java:273) INFO  - Log in
+2011-11-14 06:19:18,905 [pool-1-thread-1] (CxScanJob.java:120) INFO  - Retrieving scan configurations
+2011-11-14 06:19:18,930 [pool-1-thread-1] (CxScanJob.java:141) INFO  - Request scan
+2011-11-14 06:19:18,931 [pool-1-thread-1] (CxScanJob.java:417) INFO  - isVisible to others flag: true
+2011-11-14 06:19:18,940 [pool-1-thread-1] (CxScanJob.java:445) ERROR - Project scan request was unsuccessful.
+2011-11-14 06:19:18,942 [pool-1-thread-1] (CxScanJob.java:449) INFO  - Project scan run request unsuccessful: Illegal project name. Operation retry 1
+2011-11-14 06:20:18,951 [pool-1-thread-1] (CxScanJob.java:445) ERROR - Project scan request was unsuccessful.
+2011-11-14 06:20:18,952 [pool-1-thread-1] (CxScanJob.java:449) INFO  - Project scan run request unsuccessful: Illegal project name. Operation retry 2
+2011-11-14 06:21:18,962 [pool-1-thread-1] (CxScanJob.java:445) ERROR - Project scan request was unsuccessful.
+2011-11-14 06:21:18,963 [pool-1-thread-1] (CxScanJob.java:449) INFO  - Project scan run request unsuccessful: Illegal project name. Operation retry 3
+2011-11-14 06:21:18,965 [main] (ScanFolderCommand.java:70) ERROR - Error during scan job execution: Project scan request was unsuccessful.
+2011-11-14 06:21:18,966 [main] (ScanFolderCommand.java:73) TRACE - Error during scan job execution.
+java.util.concurrent.ExecutionException: java.lang.Exception: Project scan request was unsuccessful.
+	at java.util.concurrent.FutureTask$Sync.innerGet(Unknown Source)
+	at java.util.concurrent.FutureTask.get(Unknown Source)
+	at com.checkmarx.cxconsole.commands.ScanFolderCommand.executeCommand(ScanFolderCommand.java:61)
+	at com.checkmarx.cxconsole.commands.CxConsoleCommand.execute(CxConsoleCommand.java:78)
+	at com.checkmarx.cxconsole.CxConsoleLauncher.main(CxConsoleLauncher.java:94)
+Caused by: java.lang.Exception: Project scan request was unsuccessful.
+	at com.checkmarx.cxconsole.commands.job.CxScanJob.requestScan(CxScanJob.java:468)
+	at com.checkmarx.cxconsole.commands.job.CxScanJob.call(CxScanJob.java:144)
+	at com.checkmarx.cxconsole.commands.job.CxScanJob.call(CxScanJob.java:44)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)

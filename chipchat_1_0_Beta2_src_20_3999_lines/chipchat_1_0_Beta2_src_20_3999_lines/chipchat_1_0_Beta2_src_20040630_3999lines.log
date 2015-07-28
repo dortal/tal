@@ -1,0 +1,30 @@
+2011-11-14 07:31:22,317 [pool-1-thread-1] (CxScanJob.java:89) INFO  - Packing project
+2011-11-14 07:31:27,740 [pool-1-thread-1] (CxScanJob.java:108) INFO  - Project name is "chipchat_1_0_Beta2_src_20040630_3999lines"
+2011-11-14 07:31:28,218 [pool-1-thread-1] (CxScanJob.java:258) INFO  - Check CLI version support: 1.2.5
+2011-11-14 07:31:28,248 [pool-1-thread-1] (CxScanJob.java:273) INFO  - Log in
+2011-11-14 07:31:28,261 [pool-1-thread-1] (CxScanJob.java:120) INFO  - Retrieving scan configurations
+2011-11-14 07:31:28,284 [pool-1-thread-1] (CxScanJob.java:141) INFO  - Request scan
+2011-11-14 07:31:28,286 [pool-1-thread-1] (CxScanJob.java:417) INFO  - isVisible to others flag: true
+2011-11-14 07:31:28,296 [pool-1-thread-1] (CxScanJob.java:445) ERROR - Project scan request was unsuccessful.
+2011-11-14 07:31:28,297 [pool-1-thread-1] (CxScanJob.java:449) INFO  - Project scan run request unsuccessful: Illegal project name. Operation retry 1
+2011-11-14 07:32:28,307 [pool-1-thread-1] (CxScanJob.java:445) ERROR - Project scan request was unsuccessful.
+2011-11-14 07:32:28,308 [pool-1-thread-1] (CxScanJob.java:449) INFO  - Project scan run request unsuccessful: Illegal project name. Operation retry 2
+2011-11-14 07:33:28,317 [pool-1-thread-1] (CxScanJob.java:445) ERROR - Project scan request was unsuccessful.
+2011-11-14 07:33:28,318 [pool-1-thread-1] (CxScanJob.java:449) INFO  - Project scan run request unsuccessful: Illegal project name. Operation retry 3
+2011-11-14 07:33:28,319 [main] (ScanFolderCommand.java:70) ERROR - Error during scan job execution: Project scan request was unsuccessful.
+2011-11-14 07:33:28,321 [main] (ScanFolderCommand.java:73) TRACE - Error during scan job execution.
+java.util.concurrent.ExecutionException: java.lang.Exception: Project scan request was unsuccessful.
+	at java.util.concurrent.FutureTask$Sync.innerGet(Unknown Source)
+	at java.util.concurrent.FutureTask.get(Unknown Source)
+	at com.checkmarx.cxconsole.commands.ScanFolderCommand.executeCommand(ScanFolderCommand.java:61)
+	at com.checkmarx.cxconsole.commands.CxConsoleCommand.execute(CxConsoleCommand.java:78)
+	at com.checkmarx.cxconsole.CxConsoleLauncher.main(CxConsoleLauncher.java:94)
+Caused by: java.lang.Exception: Project scan request was unsuccessful.
+	at com.checkmarx.cxconsole.commands.job.CxScanJob.requestScan(CxScanJob.java:468)
+	at com.checkmarx.cxconsole.commands.job.CxScanJob.call(CxScanJob.java:144)
+	at com.checkmarx.cxconsole.commands.job.CxScanJob.call(CxScanJob.java:44)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
