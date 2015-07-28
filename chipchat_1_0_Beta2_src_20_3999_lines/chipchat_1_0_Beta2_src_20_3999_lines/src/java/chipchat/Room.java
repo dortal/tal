@@ -16,7 +16,7 @@ public final class Room extends Thread {
 	private Channel channel;
 	/** Room id number */
 	private Long roomid;
-	/** The name of room tal */
+	/** The name of room */
 	private String name;
 	/** Maximum number of person in this room */
 	private int maxMan;
