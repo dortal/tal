@@ -4,7 +4,7 @@
 package chipchat;
 
 /**
- * Message.
+ * Message.ghk ghk fhj fhj f
  * @author Mr. Lee
  */
 public class Msg {
