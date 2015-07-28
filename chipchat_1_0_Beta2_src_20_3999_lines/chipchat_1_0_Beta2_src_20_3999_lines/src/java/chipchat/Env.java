@@ -7,7 +7,7 @@ import java.io.InputStream;
 import java.util.Properties;
 
 /**
- * Environment.
+ * Environment.fsdgsegs
  * @author Mr. Lee
  */
 public final class Env extends Properties {
@@ -18,7 +18,7 @@ public final class Env extends Properties {
    private static Env instance;
 
    /**
-    * Get instance.
+    * Get instance.fwdggsd
     * @return Instance.
     */
    public static Env getInstance() {
@@ -31,7 +31,7 @@ public final class Env extends Properties {
    }
 
    /**
-    * Make instance if it is not exist.
+    * Make instance if it isgfger not exist.
     */
    private static synchronized void makeInstance() {
       if (instance == null) {

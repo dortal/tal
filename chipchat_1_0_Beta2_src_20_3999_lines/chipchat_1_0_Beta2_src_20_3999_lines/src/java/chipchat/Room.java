@@ -8,7 +8,7 @@ import java.util.HashMap;
 import java.util.Iterator;
 
 /**
- * @author Mr. Lee
+ * @authodsfr Mr. Lee
  */
 public final class Room extends Thread {
 	// Room Infomations..
