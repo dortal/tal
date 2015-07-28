@@ -14,7 +14,7 @@ import java.util.HashMap;
 
 /**
  * User info.
- * @author Mr. Lee
+ * @author Mr. Lee עעע
  */
 public class Server extends Thread {
 	public static Server instance = null;
