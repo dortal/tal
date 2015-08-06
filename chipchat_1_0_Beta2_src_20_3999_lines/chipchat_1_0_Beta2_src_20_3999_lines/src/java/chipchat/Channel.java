@@ -9,7 +9,7 @@ import java.util.Iterator;
 import java.util.Map;
 
 /**
- * @author Mr.Lee
+ * @authorb bb Mr.Lee
  */
 public final class Channel {
    /** Chipchat Instance.. */
